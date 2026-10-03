@@ -1,0 +1,11 @@
+// Signing settings shared by both targets.
+//
+// Put your Apple Developer Team ID in Config/Signing.local.xcconfig, which Git
+// ignores, so your team never ends up in the repository:
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// scripts/configure.sh writes that file for you. Choosing a Team in Xcode under
+// Signing & Capabilities works too.
+
+#include? "Signing.local.xcconfig"
