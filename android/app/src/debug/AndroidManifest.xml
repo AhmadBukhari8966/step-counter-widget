@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug builds only: lets developers load sample steps into Health Connect on an emulator. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.health.WRITE_STEPS" />
+
+    <application>
+        <receiver
+            android:name=".debug.SeedStepsReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.ahmadbukhari.stepcounter.SEED_STEPS" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

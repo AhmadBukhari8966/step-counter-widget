@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Step Counter</string>
+    <string name="widget_name">Daily Steps</string>
+    <string name="widget_description">Today\'s steps and your progress toward your daily goal.</string>
+    <string name="widget_theme">Widget theme</string>
+</resources>

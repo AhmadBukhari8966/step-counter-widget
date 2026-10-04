@@ -2,7 +2,9 @@
 
 An iPhone app that reads your daily step count from Apple Health and shows it in Home Screen and Lock Screen widgets. Built with SwiftUI, WidgetKit and HealthKit, with no third-party dependencies.
 
-![iOS 17+](https://img.shields.io/badge/iOS-17%2B-blue) ![Swift 6](https://img.shields.io/badge/Swift-6-orange) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
+**Also on Android:** the same app and widget, reading Health Connect. [Download the APK](https://github.com/AhmadBukhari8966/step-counter-widget/releases/latest/download/StepCounter.apk) or see [android/README.md](android/README.md).
+
+![iOS 17+](https://img.shields.io/badge/iOS-17%2B-blue) ![Android 9+](https://img.shields.io/badge/Android-9%2B-3DDC84) ![Swift 6](https://img.shields.io/badge/Swift-6-orange) ![Kotlin](https://img.shields.io/badge/Kotlin-2.4-7F52FF) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 <p>
   <img src="docs/screenshots/widget-medium.png" width="460" alt="Medium widget on the Home Screen: a progress ring with 7,532 steps, 2,468 to go, and a 7-day bar chart">
@@ -165,6 +167,7 @@ flowchart LR
 | `Shared/` | Built into both targets: HealthKit queries, the shared cache and goal, themes, and the ring and bar chart views |
 | `Config/` | Signing settings. Your Team ID goes in `Signing.local.xcconfig`. |
 | `scripts/configure.sh` | Switches the bundle IDs, App Group and team to yours |
+| `android/` | The Android version, with its own [README](android/README.md) |
 
 The folders are synchronized with Xcode, so new files you add there are picked up automatically.
 
