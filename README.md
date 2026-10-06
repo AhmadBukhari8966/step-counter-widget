@@ -1,6 +1,6 @@
 # Step Counter
 
-An iPhone app that reads your daily step count from Apple Health and shows it in Home Screen and Lock Screen widgets. Built with SwiftUI, WidgetKit and HealthKit, with no third-party dependencies.
+A mobile app that reads your daily step count from Apple Health and shows it in Home Screen and Lock Screen widgets. Built with SwiftUI, WidgetKit and HealthKit, with no third-party dependencies.
 
 **Also on Android:** the same app and widget, reading Health Connect. [Download the APK](https://github.com/AhmadBukhari8966/step-counter-widget/releases/latest/download/StepCounter.apk) or see [android/README.md](android/README.md).
 
